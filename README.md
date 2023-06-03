@@ -13,6 +13,23 @@ The Weather Forecast Command Line Application is a Python-based tool that provid
 ``` cmd
 git clone https://github.com/prathmeshChaudhari05/techgig-project.git
 ```
+2. Install the required dependencies using pip:
+```cmd
+pip install -r requirements.txt
+```
+3. Obtain an API key from the OpenWeatherMap website. (https://openweathermap.org/)
+4. Replace the placeholder API key in the `weatherForecast.py` file with your own API key.
+
+## Usage
+1. Open a command line interface and navigate to the project directory.
+2. Run the application by executing the following command:
+```python
+python weatherForecast.py
+```
+3. Follow the prompts to input your desired location or coordinates.
+4. The application will retrieve the weather forecast for the specified location and display it in the command line.
+
+## Contact
+For any inquiries or further information, please contact **Prathmesh Chadhari** at **prathmeshchaudhari05@gmail.com**
 
 
-This is a Hackathon Project where I implemented Weather Forecast application using Python with integration of OpenWeatherAPI.
