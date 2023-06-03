@@ -13,7 +13,7 @@ def weatherForecast(city_name):
     except KeyError:
         return 'City not found'
 
-city = input('Enter city name: ')
+city = input("Enter the city name: ")
 if weatherForecast(city) == 'City not found':
     print("City not found")
 else:
